@@ -1,0 +1,230 @@
+
+:root {
+    --main-color:#FFFFFF;
+    --secondary-color: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color:#212121;
+    background-color: var(--main-color);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+  }
+
+/*Header*/
+.info {
+    padding-top: 24px;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+.logo-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.lists {
+    text-decoration: none;
+    list-style: none;
+}
+.active-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.studio:visited {
+    color: var(--secondary-color); 
+}
+.portfolio:visited {
+    color: var(--secondary-color); 
+}
+.active-link:hover, .active-link:focus {
+    color: var(--secondary-color);
+}
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+}
+.contacts:hover, .contacts:focus {
+    color: var(--secondary-color);
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-txt {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 200px 452px 280px 452px;
+}
+.button {
+    background-color: var(--secondary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.button:hover{
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Info*/
+.lists-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.lists-txt {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*About*/
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*Team*/
+.title-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.name-info {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*Fotter*/
+.footer {
+    background-color: #2F303A;
+}
+.address-list {
+    text-decoration: none;
+    text-decoration: none;
+    list-style: none;
+}
+.address-txt {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    text-decoration: none;
+    list-style: none;
+}
+.contacts-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*Portfolio*/
+.portfolio-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.portfolio-btn {
+    list-style: none;   
+}
+.button-tittle {
+    width: 81px;
+    height: 26px;
+    left: 615px;
+    top: 180px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.button-tittle:hover, .button-tittle:focus {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+.title-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.project {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+}
+.project-info {
+    text-decoration: none;
+}
