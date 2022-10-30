@@ -117,6 +117,8 @@ body {
     margin-top: 0px;
     margin-bottom: 30px;
     padding-top: 200px;
+    width: 696px;
+    margin: 0 auto 30px;
 }
 .button {
     display: block;
@@ -168,9 +170,12 @@ display: flex;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--primary-lightgray-color);
+    width: 270px;
+
 }
 .info-list {
     padding-top: 94px;
+    margin: 0px;
 }
 .info-list:not(:first-child) {
     margin-left: 30px;
@@ -208,13 +213,13 @@ display: flex;
     margin-left: -30px;
     padding-top: 50px;
     padding-left: 0px;
+    padding-bottom: 94px;
 }
 .team-item {
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 94px;
 }
 .title-text {
     padding-top: 94px;
@@ -278,6 +283,9 @@ display: flex;
 
 
 /*Portfolio*/
+.portfolio-link:visited {
+    color: var(--secondary-color); 
+}
 .portfolio {
     padding-top: 69px;
 }
@@ -305,7 +313,7 @@ display: flex;
 .button-tittle {
     margin-left: 8px;
     display: inline-block;
-    padding: 6px 22px;
+    padding: 6px 25px;
     min-width: 81px;
     height: 26px;
     left: 615px;
@@ -355,10 +363,12 @@ display: flex;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
+    border: 1px solid #EEEEEE;
 }
 .project-info {
     text-decoration: none;
 }
 .name-info {
     padding-top: 4px;
+    padding-bottom: 20px;
 }
