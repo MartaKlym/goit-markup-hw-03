@@ -347,9 +347,17 @@ display: flex;
     color: var(--primary-gray-color);
     padding-top: 20px;
     padding-left: 24px;
+}
+.name-info {
+    padding-top: 4px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+.project-txt {
     text-align: left;
 }
 .project-container .projects-list {
+    flex-basis: calc((100% - 60px) / 3);
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
@@ -387,10 +395,4 @@ display: flex;
     display: block;
     width: 100%;
     height: auto;
-}
-.name-info {
-    text-align: left;
-    padding-top: 4px;
-    padding-bottom: 20px;
-    padding-left: 24px;
 }
