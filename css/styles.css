@@ -10,7 +10,7 @@ body {
     background-color: var(--main-color);
 }
 .container {
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     outline: 1px solid red;
@@ -184,13 +184,29 @@ display: flex;
     letter-spacing: 0.03em;
 }
 .about-lists {
+    display: flex;
+    margin-left: -30px;
     padding-top: 50px;
     padding-left: 0px;
+}
+.about-list {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
 }
 
 /*Team*/
 .team {
     background: #F5F4FA;
+}
+.team-container {
+    display: flex;
+    margin-left: -30px;
+    padding-top: 50px;
+    padding-left: 0px;
+}
+.team-item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
 }
 .title-text {
     padding-top: 94px;
@@ -199,9 +215,6 @@ display: flex;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-}
-.team-info {
-    padding-top: 50px;
 }
 .title-name {
     font-weight: 500;
@@ -227,7 +240,8 @@ display: flex;
 .address-info {
     padding-top: 20px;
 }
-.address-list {
+.footer-lists {
+    display: inline-block;
     text-decoration: none;
     text-decoration: none;
     list-style: none;
@@ -244,6 +258,7 @@ display: flex;
     padding-top: 9px;
 }
 .contacts-txt {
+    display: inline-block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -256,7 +271,7 @@ display: flex;
 
 /*Portfolio*/
 .portfolio {
-    padding-top: 94px;
+    padding-top: 69px;
 }
 .portfolio-hidden {
     position: absolute;
