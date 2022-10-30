@@ -281,6 +281,9 @@ display: flex;
 .portfolio {
     padding-top: 69px;
 }
+.info-portfolio {
+    border: 1px solid #ECECEC;
+}
 .portfolio-hidden {
     position: absolute;
     width: 1px;
