@@ -361,32 +361,30 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    margin: auto;
-    padding-right: 0px;
+    margin: 0px;
 }
-.project-elements {
+.project-info {
     width: 370px;
 }
-.project-info:not(3n) {
-    margin-left: 30px;
-}
-.project-elements:not(:nth-child(3n)) {
+.project:not(:nth-child(3n)) {
     margin-right: 30px;
 }
-.project-elements:not(:nth-last-child(-n+3)) {
+.project:not(:nth-last-child(-n+3)) {
     padding-bottom: 30px;
 }
-.project-elements:nth-last-child(-n+3) {
+.project-container {
+    padding-top: 50px;
     padding-bottom: 94px;  
 }
 .projects-list {
-    
-    padding-top: 50px;
-    padding-left: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.project-column {
+    border: 1px solid #EEEEEE;
 }
 .project {
     list-style: none;
-    border: 1px solid #EEEEEE;
 }
 .project-info {
     text-decoration: none;
